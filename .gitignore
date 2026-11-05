@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+**/vendor/
+**/node_modules/
+
+# Build output
+**/dist/
+
+# Laravel
+**/.phpunit.cache/
+**/storage/*.key
+**/bootstrap/cache/*.php
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Laravel runtime files
+**/storage/framework/sessions/*
+!**/storage/framework/sessions/.gitkeep
+
+**/storage/framework/views/*
+!**/storage/framework/views/.gitkeep
+
+**/storage/logs/*.log
